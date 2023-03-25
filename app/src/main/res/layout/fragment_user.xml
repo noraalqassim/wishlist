@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserFragment">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:textAlignment="center"
+          android:textSize="25sp"
+          android:textStyle="bold"
+          android:text="PROFILE " />
+      <de.hdodenhof.circleimageview.CircleImageView
+          xmlns:app="http://schemas.android.com/apk/res-auto"
+          android:id="@+id/view_profile_image"
+          android:layout_width="96dp"
+          android:layout_height="96dp"
+          android:layout_gravity="center"
+          android:src="@drawable/user_male"
+          app:civ_border_width="2dp"
+          app:civ_border_color="#FF000000"/>
+      <TextView
+          android:id="@+id/tv_user_name"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:textAlignment="center"
+          android:textSize="25sp"
+          android:textStyle="bold"
+          android:text="USERNAME " />
+
+      <TextView
+          android:id="@+id/tv_user_email"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:textAlignment="center"
+          android:textSize="25sp"
+          android:textStyle="bold"
+          android:text="EMAIL " />
+
+      <androidx.appcompat.widget.AppCompatButton
+          android:layout_width="40dp"
+          android:id="@+id/edit_profile_button"
+          android:layout_gravity="center"
+          android:background="@drawable/edit_icon"
+          android:layout_height="40dp">
+
+
+      </androidx.appcompat.widget.AppCompatButton>
+
+      <androidx.appcompat.widget.AppCompatButton
+          android:id="@+id/logout"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:layout_gravity="center"
+          android:background="@drawable/logout_icon">
+
+
+      </androidx.appcompat.widget.AppCompatButton>
+
+  </LinearLayout>
+
+</FrameLayout>

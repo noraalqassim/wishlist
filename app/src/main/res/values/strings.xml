@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Please_Choose_Image">يرجى اختيار صورة</string>
+    <string name="Please_Enter_Name">لايمكن ترك الاسم فارغ</string>
+    <string name="Please_Enter_Price">لايمكن ترك السعر فارغ</string>
+    <string name="Please_Enter_ُEmail">لايمكن ترك البريد الالكتروني فارغ</string>
+    <string name="Please_Enter_ُPassword">لايمكن ترك كلمة السر فارغ</string>
+    <string name="Password"> كلمة السر </string>
+    <string name="Add_Product">إضافة منتج </string>
+    <string name="Category"> الاقسام  </string>
+    <string name="Login"> تسجيل دخول </string>
+    <string name="CreateAccount"> انشاء حساب جديد </string>
+    <string name="Price">السعر </string>
+    <string name="Name">الاسم </string>
+    <string name="Email">البريد الالكتروني  </string>
+    <string name="Save">حفظ </string>
+    <string name="Delete">حذف </string>
+    <string name="Edit">تعديل </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

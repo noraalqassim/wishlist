@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:background="@color/mainBackgroundColor"
+    tools:context=".Fragment_Add_Category">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textAlignment="center">
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@color/mainBackgroundColor"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:text="Add New  Category" />
+
+
+            <ImageView
+                android:id="@+id/imgNewCategory"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:id="@+id/chooseImageCategory"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"
+                android:text="Click Here To Choose Image" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <EditText
+                android:id="@+id/txtCategoryName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittextstyle"
+                android:gravity="center_horizontal"
+                android:hint="Category Name"
+                android:inputType="text" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                >
+            </LinearLayout>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+            <Button
+                android:id="@+id/btnSaveCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Save"
+                android:background="@drawable/btnstyle"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

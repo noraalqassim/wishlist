@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:background="@color/mainBackgroundColor"
+    tools:context=".FragmentAddProduct">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textAlignment="center">
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/mainBackgroundColor"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:text="Add New Product" />
+
+
+            <ImageView
+                android:id="@+id/imgNewProduct"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:id="@+id/chooseImage"
+                android:background="@drawable/btnstyle"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"
+                android:text="Click Here To Choose Image" />     <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <Spinner
+                android:id="@+id/Category_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/txtProductName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittextstyle"
+                android:gravity="center_horizontal"
+                android:hint="Product Name "
+                android:inputType="text" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <EditText
+                android:id="@+id/txtProduct_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittextstyle"
+                android:gravity="center_horizontal"
+                android:hint=" Details"
+                android:layout_marginBottom="10dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtProduct_Price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:hint="Price"
+                android:background="@drawable/edittextstyle"
+                android:inputType="text"
+                android:lines="4"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                >
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Save"
+                android:background="@drawable/btnstyle"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>
